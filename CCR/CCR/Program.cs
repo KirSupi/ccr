@@ -11,10 +11,11 @@ class Recognizer
 
     public string[][] RecognizeColorCollisions(Bitmap img)
     {
-         Dictionary<string, Bitmap> masks;
+         Dictionary<string, Bitmap> masks = new Dictionary<string, Bitmap>();
+         
          foreach ((string name, Color color) in _colors)
          {
-             if
+             masks[name] = new Bitmap(img);
          }
         return Array.Empty<string[]>();
     }

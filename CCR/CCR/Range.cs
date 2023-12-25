@@ -11,10 +11,5 @@ public class Range
         Max = max;
     }
 
-    public bool Recognize(Range[] hue, Range[] saturation, Range[] brightness)
-    {
-        if (hue)
-        
-        return false;
-    }
+    public bool Includes(int number) => number >= Min && number <= Max;
 }
