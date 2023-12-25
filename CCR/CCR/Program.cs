@@ -2,5 +2,8 @@
 
 class Recognizer
 {
-    
+    static void Main()
+    {
+        
+    }
 }
