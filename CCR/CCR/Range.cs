@@ -10,4 +10,11 @@ public class Range
         Min = min;
         Max = max;
     }
+
+    public bool Recognize(Range[] hue, Range[] saturation, Range[] brightness)
+    {
+        if (hue)
+        
+        return false;
+    }
 }
