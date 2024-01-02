@@ -23,6 +23,11 @@ public class Color
         SaturationRanges = saturation;
         BrightnessRanges = brightness;
     }
+    
+    public object Clone()
+    {
+        return this.MemberwiseClone();
+    }
 
     public bool Recognize(int hue, int saturation, int brightness)
     {
